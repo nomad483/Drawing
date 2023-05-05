@@ -7,18 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E826959A2A046F2D0097B81E /* Flower.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82695992A046F2D0097B81E /* Flower.swift */; };
 		E82EFF002A031203003A8084 /* DrawingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EFEFF2A031203003A8084 /* DrawingApp.swift */; };
 		E82EFF022A031203003A8084 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82EFF012A031203003A8084 /* ContentView.swift */; };
 		E82EFF042A031204003A8084 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82EFF032A031204003A8084 /* Assets.xcassets */; };
 		E82EFF072A031204003A8084 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E82EFF062A031204003A8084 /* Preview Assets.xcassets */; };
+		E8693FE62A047B4E0000C024 /* ColorCyclingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8693FE52A047B4E0000C024 /* ColorCyclingCircle.swift */; };
+		E8693FE82A04E82C0000C024 /* FlowerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8693FE72A04E82C0000C024 /* FlowerView.swift */; };
+		E8693FEA2A04E87D0000C024 /* ColorCyclingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E8693FE92A04E87D0000C024 /* ColorCyclingCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E82695992A046F2D0097B81E /* Flower.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Flower.swift; sourceTree = "<group>"; };
 		E82EFEFC2A031203003A8084 /* Drawing.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drawing.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E82EFEFF2A031203003A8084 /* DrawingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawingApp.swift; sourceTree = "<group>"; };
 		E82EFF012A031203003A8084 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E82EFF032A031204003A8084 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E82EFF062A031204003A8084 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E8693FE52A047B4E0000C024 /* ColorCyclingCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircle.swift; sourceTree = "<group>"; };
+		E8693FE72A04E82C0000C024 /* FlowerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerView.swift; sourceTree = "<group>"; };
+		E8693FE92A04E87D0000C024 /* ColorCyclingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCyclingCircleView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				E82EFEFF2A031203003A8084 /* DrawingApp.swift */,
 				E82EFF012A031203003A8084 /* ContentView.swift */,
+				E8693FE52A047B4E0000C024 /* ColorCyclingCircle.swift */,
+				E82695992A046F2D0097B81E /* Flower.swift */,
+				E8693FE72A04E82C0000C024 /* FlowerView.swift */,
+				E8693FE92A04E87D0000C024 /* ColorCyclingCircleView.swift */,
 				E82EFF032A031204003A8084 /* Assets.xcassets */,
 				E82EFF052A031204003A8084 /* Preview Content */,
 			);
@@ -138,7 +150,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				E82EFF022A031203003A8084 /* ContentView.swift in Sources */,
+				E8693FE62A047B4E0000C024 /* ColorCyclingCircle.swift in Sources */,
+				E8693FE82A04E82C0000C024 /* FlowerView.swift in Sources */,
 				E82EFF002A031203003A8084 /* DrawingApp.swift in Sources */,
+				E8693FEA2A04E87D0000C024 /* ColorCyclingCircleView.swift in Sources */,
+				E826959A2A046F2D0097B81E /* Flower.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
